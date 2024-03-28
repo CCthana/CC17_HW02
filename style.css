@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e4e6eb;
+}
+
+nav {
+    height: 56px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftnav svg{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    
+}
+
+.leftnav svg:hover {
+    cursor: pointer;
+}
+
+.search {
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    background-color: #e4e6eb;
+    border-radius: 40px;
+    
+}
+
+
+.searchicon > svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 24px;
+    color: #65676b;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+   
+}
+
+.searchbar > input {
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 0;
+    background-color: #e4e6eb;
+    border: 0;
+    outline: none;
+    
+}
+
+
+.midnav {
+    display: flex;
+    align-items: center;
+}
+
+.midicon {
+    color: #65676b;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 8px;
+    
+}
+
+.midicon:hover {
+    background-color: #d7dadf;
+    border-radius: 10px;
+}
+
+.active {
+    /* color: #65676b; */
+    color: #0866ff;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 8px;height: 56px;
+    width: 100px;
+    border-bottom: 4px solid #0866ff;
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.righticon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e4e6eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.righticon > svg {
+    color: #65676b;
+}
+
+.righticon:hover {
+    background-color: #d7dadf;
+}
